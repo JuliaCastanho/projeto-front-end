@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>madokando</title>
+    <link rel="shortcut icon" href="imagens/" type="image/x-icon.">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.novo.css">
+</head>
+<body>
+    <header class="cabeçalho">
+        <img class="imagens/Homumado.jpg" alt="logo do site">
+        <h1 class="título-site">Madokando</h1>
+    </header>
+    <nav class="menu">
+         <ul>
+            <li class="menu-item"><a href="index.html">inicio</a></li>
+            <li class="menu-item"> <a href="produtos.html">loja</a></li>
+            <li class="menu item"><a href="contato.html"></a>contato</li>
+         </ul>
+    </nav>
+    <main class="fomulario">
+        <h1 class="titulo-formulario">formulario de contato</h1>
+        <section class="conteudo-seço"></section>
+            <div class="container-titulo">
+                <h2 class="titulos-produtos">Forulário</h2>
+            </div>
+            <form action="" method="post">
+                <div class="campo-formulario">
+                    <label for="campo_nome">Nome completo:</label>
+                    <imput type="text" id="campo_nome" name="Nome completo"placeholder="Nome completo">
+                </div>
+                <div class="campo_formulario_email">
+                    <label for="campo_email">Email:</label>
+                    <input type="email" id="campo_email" name="Email" placeholder="exemplo@gmail.com" required data-tooltip="preencha este campo">
+                </div>
+                <div class="campo_formulario_tel">
+                    <label for="campo_tel">Telefone:</label>                     
+                    <input type="tel" id="campo_tel" name="Telefone" placeholder="(xx)xxxxx-xxxx"> 
+                </div>
+                <label for="opcao1">
+                    <input type="radio" id="opcao1" name="opções">
+                    Opção 1
+                </label>
+                <label for="opcao2">
+                    <input type="radio" id="opcao2" name="opçao2">
+                    Opção2
+                </label>
+                <label for="termos de uso">
+                    <input type="checkbox" id="termos-uso" name="termos">
+                    aceito os termos de uso
+                </label>
+
+                <br><br>
+                <input type="submit" value="Enviar"> 
+                <input type="reset" value="Limpar formulário">
+            </form>
+        </selection>

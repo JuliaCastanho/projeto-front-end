@@ -1,0 +1,33 @@
+body {
+    background-color: #facbee
+}
+p {
+    font-size: 25x;
+    background-color: #ab8bb1;
+    color:#130b13;
+}
+img {
+    width: 350px;
+ }
+.logo {
+    width: 600px;
+}
+.banner{
+    width: 500px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 45px;
+}
+
+.menu a:hover{
+    color: white;
+}

@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+:root{
+    --cor-princilpal: rgb(250, 249, 249);
+    --cor-secundaria: white;
+    --cor-destaque: white;
+    --branco: white;
+ }
+
+ .logo {
+    width: 160px;
+ }
+
+.cabeçalho{
+    background-color: var(--cor-principal);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+}
+
+.titulo-site{
+    color: #000;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px var(--cor-secundária), 3px 3 px 4px var(--cor-destaque);
+}
+
+.menu{
+
+    background-color: var(--cor-secundária);
+}
+
+.menu > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu-item > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-weight: 2em;
+    font-variant: small-caps;
+    transition: all 500ms;
+}
